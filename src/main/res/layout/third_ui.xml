@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="="
+        android:textSize="80dp"
+        android:textColor="@color/btn_3_sp_bg"
+        android:paddingTop="50dp"
+        android:paddingLeft="20dp">
+
+        </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="ce"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="+/-"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="%"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="9"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="6"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="✶"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="."
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="/"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="✶"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="50dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="200dp"
+                android:backgroundTint="@color/btn_3_sp_bg"
+                android:insetLeft="10dp"
+                android:insetTop="10dp"
+                android:insetRight="10dp"
+                android:insetBottom="10dp"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="50dp"
+                app:cornerRadius="10dp"
+                app:iconPadding="20dp"></Button>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
